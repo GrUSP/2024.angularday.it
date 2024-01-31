@@ -23,12 +23,12 @@ conference:
   contact_email: "angularday@grusp.org"
   # these are for the hero section
   title_pre: "Welcome to"
-  title: "angularday 2023"
+  title: "angularday 2024"
   city: "Verona"
-  date: 2023-11-24T09:00+01:00
+  date: 2024-11-08T09:00+01:00
   # Use the next field to override the date in the hero
   hero_date_text:
-  countdown_visible: false
+  countdown_visible: true
   countdown_days: "days"
   countdown_hours: "hours"
   countdown_minutes: "minutes"
@@ -56,10 +56,10 @@ conference:
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "About angularday"
-  geninfo_description: "angularday 2023 is the 7th edition of the Italian angular conference, organized by GrUSP, organizers of events like <a href='https://www.reactjsday.it/'>reactjsday</a> and <a href='https://www.jsday.it/'>jsday</a>.
+  geninfo_description: "angularday 2024 is the 8th edition of the Italian angular conference, organized by GrUSP, organizers of events like <a href='https://www.reactjsday.it/'>reactjsday</a> and <a href='https://www.jsday.it/'>jsday</a>.
   <br> <br /> The event is international and all sessions will be in English.
   <br> The event’s goal is to allow all angular developers to meet and share experience while having fun and networking in an enjoyable context.
-  <br> <br /><b>angularday 2023 is happening in Verona and online on Friday, November 24th 2023.</b>"
+  <br> <br /><b>angularday 2024 is happening in Verona (and online) on Friday, November 8th 2024.</b>"
   geninfo_about_label: "About"
   geninfo_coc_label: "Code of conduct"
   geninfo_scholarships_label: "Scholarships"
@@ -90,7 +90,7 @@ conference:
   newsletter_legal_url: "https://mailchimp.com/legal/"
   newsletter_legal_label: "Information about Mailchimp's privacy policy"
   # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden
-  speakers_visible: true
+  speakers_visible: false
   speakers_title: "speaker"
   mcs_title: "MC"
   speaker_count_text: "meet our amazing speakers!"
@@ -107,6 +107,11 @@ conference:
     - "RxJS"
     - "Signals"
     - "SSR"
+    - "Micro frontends"
+    - "Testing"
+    - "Accessibility"
+    - "Best Practices"
+    - "Module federation"
 
   topics_payoff: "...and much more!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
@@ -117,10 +122,10 @@ conference:
   workshops_register_label: "Register"
   # Media section in home page. set the first parameter to true to make it appear in home page, false means hidden
   media_visible: true
-  media_pic_1: "angularday1.jpeg"
+  media_pic_1: "1.png"
   media_pic_2: "people.jpg"
-  media_pic_3: "angularday2.jpeg"
-  media_pic_4: "sanmarco.png"
+  media_pic_3: "2.jpg"
+  media_pic_4: "3.jpg"
   #   playlist: if true, the iframe will be created. if false, it will not
   media_video_playlist: true
   # if `media_video_is_youtube` is `true`, the relevant playlist will be embedded via "media_video_playlist". If it is `false`, the relevant Vimeo channel will be embedded via "media_vimeo_channel"
@@ -142,7 +147,7 @@ conference:
   # image credits (l'esempio è per la hero del CSS Day!)
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  sponsors_visible: true
+  sponsors_visible: false
   sponsor_title_home: "Sponsors"
   # this is for the Community partners section in home page
   community_partners: true
@@ -170,6 +175,7 @@ conference:
     2020: "2020"
     2021: "2021"
     2022: "2022"
+    2023: "2023"
   past_editions_videos_pre: "Videos from the past editions are available on "
   past_editions_videos_vimeo_label: "Vimeo"
   past_editions_videos_mid: " and "
