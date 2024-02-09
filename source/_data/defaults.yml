@@ -187,7 +187,7 @@ conference:
   footer_links_privacy_link_label: "privacy policy"
   iubenda:
     # sostituire tutti questi parametri con quelli generati nel dashboard di iubenda.com cfr. https://gist.github.com/mbeccati/1bd9e562905a90e14d7d88ed3dcea34c
-    cookiePolicyId: 37246326
+    cookiePolicyId: 27650931
     siteId: 1100245
     lang: en
     enableRemoteConsent: true
