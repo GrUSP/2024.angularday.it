@@ -191,7 +191,7 @@ conference:
     siteId: 1100245
     lang: en
     enableRemoteConsent: true
-    localConsentDomain: sfday.it
+    localConsentDomain: angularday.it
     rebuildIframe: true
   privacy_policy_url_common: "https://www.iubenda.com/privacy-policy/"
   footer_link_middle: " and our "
