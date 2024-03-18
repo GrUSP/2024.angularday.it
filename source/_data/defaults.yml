@@ -100,7 +100,7 @@ conference:
   topics_description: "We'll talk about..."
   topics:
     - "Angular"
-    - "Api"
+    - "API"
     - "Best practices"
     - "NgRx"
     - "NX"
