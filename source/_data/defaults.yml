@@ -46,7 +46,7 @@ conference:
   update_link_url: "https://google.com/"
   update_link_label: "link to google, just for the demo"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
-  cfp_open: true
+  cfp_open: false
   cfp_readmore_label: "Read more"
   cfp_open_label: "Submissions accepted until"
   cfp_open_title: "Call For Papers Now Open!"
@@ -148,7 +148,7 @@ conference:
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
   sponsors_visible: true
-  sponsor_title_home: "Sponsors"
+  sponsor_title_home: "Thanks for supporting angularday!"
   # this is for the Community partners section in home page
   community_partners: true
   community_partners_title: "Community partners"
