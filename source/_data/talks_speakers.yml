@@ -21,8 +21,20 @@ As a speaker at conferences I bring advanced Angular topics, tips for the integr
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_2: &NinaTorgunakova
+  speaker_in_speaker_lists: true
+  speaker_name: Nina Torgunakova
+  speaker_pic_filename: NinaTorgunakova.jpg
+  speaker_role: "Frontend Engineer @ Evil Martians"
+  speaker_bio: "Frontend Engineer at Evil Martians, a product development consultancy. <br />Constantly pushing myself to increase my frontend and fullstack technical knowledge, I love passing along my learnings as an author of multiple articles and regular public speaker. Breaking down complex tasks into pragmatic steps for my fellow engineers is a huge passion of mine. 
+  <br />When I’m AFK I love lyrical dancing, learning languages, and exploring new places."
+  speaker_linkedin_url: "https://www.linkedin.com/in/nina-torgunakova/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_1: *SoumayaErradi
+  speaker_2: *NinaTorgunakova
 
 tracks:
   track_1: &track_1
@@ -73,4 +85,19 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *SoumayaErradi
+
+      SmartNanoStoresOrHowToMakeStateManagementInAngularSimpler:        
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Smart Nano Stores, or how to make state management in Angular simpler"
+        talk_description: "It's hard to name popular state management libraries for Angular that are totally ideal. They are often cumbersome, which makes the bundle heavier, many of them require a boilerplate and overload components with complex logic. Moreover, sometimes we have to choose a state manager, sacrificing performance, maintainability, or readability.
+
+        <br /><br />But what if the state management process could get rid of these flaws and become much simpler? In this talk, I want to show how this can be made possible with Nano Stores – a teeny (from 334 bytes) state manager based on the idea of smart atomic stores. It has zero dependencies, its own ecosystem, and is supported in all popular frameworks including Angular.
+
+        <br /><br />With illustrative examples, I want to demonstrate that state management using tiny atomic tree-shakable stores can be much more minimalistic, faster, and more convenient than we are used to seeing it."
+        talk_video_url:
+        speakers:
+          speaker_2: *NinaTorgunakova
       
