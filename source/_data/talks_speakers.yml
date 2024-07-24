@@ -18,7 +18,6 @@ As a speaker at conferences I bring advanced Angular topics, tips for the integr
   speaker_twitter_url: "https://twitter.com/sumy92"
   speaker_instagram_url: "https://www.instagram.com/sumyerradi/"
   speaker_linkedin_url: "https://www.linkedin.com/in/soumaya-erradi"
-  speaker_mastodon_url: ""
   is_mc: false
 
 speaker_2: &NinaTorgunakova
@@ -29,12 +28,26 @@ speaker_2: &NinaTorgunakova
   speaker_bio: "Frontend Engineer at Evil Martians, a product development consultancy. <br />Constantly pushing myself to increase my frontend and fullstack technical knowledge, I love passing along my learnings as an author of multiple articles and regular public speaker. Breaking down complex tasks into pragmatic steps for my fellow engineers is a huge passion of mine. 
   <br />When I’m AFK I love lyrical dancing, learning languages, and exploring new places."
   speaker_linkedin_url: "https://www.linkedin.com/in/nina-torgunakova/"
-  speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_3: &DavidePassafaro
+  speaker_in_speaker_lists: true
+  speaker_name: Davide Passafaro
+  speaker_pic_filename: DavidePassafaro.png
+  speaker_role: "Senior Frontend Engineer @ awork.com"
+  speaker_bio: "My name is Davide Passafaro and I am senior frontend engineer at Awork. <br />
+I am the Community Manager of Angular Rome and I enjoy contribute to tech communities and conferences.<br />
+
+When i shut down my computer I like to play board games and archery, not both together till now. I also like escape rooms and memes."
+  speaker_twitter_url: "https://x.com/DavidePassafaro"
+  speaker_linkedin_url: "https://www.linkedin.com/in/davide-passafaro"
   is_mc: false
 
 speakers:
-  speaker_1: *SoumayaErradi
+  speaker_3: *DavidePassafaro
   speaker_2: *NinaTorgunakova
+  speaker_1: *SoumayaErradi
+ 
 
 tracks:
   track_1: &track_1
@@ -72,19 +85,20 @@ days:
         talk_title: "Happy Hour"
         service_icon: "glass"
 
-      # talk
-      AngularPWACraftingAppsThatAdaptAnywhere:
+      # talks
+      GetReadyToGoZoneless:        
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T09:30+02:00
         # end_datetime: 2022-05-19T10:25+02:00
-        talk_title: "Angular PWA: crafting apps that adapt anywhere"
-        talk_description: "Ready to boost your Angular App? <br />
-        Take it up a notch by turning it into a Progressive Web App (PWA). With Angular's help, upgrading your app to a PWA and setting up the necessary service worker is easy. 
-        <br />The service worker keeps your app accessible even offline, storing all important data. Plus, your PWA can act like a desktop or mobile app, giving users a native app feel. Join us as we explore Angular PWAs, showing you how to set up your app and make it look good on any device."
+        talk_title: "Get ready to go Zoneless"
+        talk_description: "Angular's change detection is finally going zoneless, promising to make your apps faster and more performant. <br />
+        But are you ready to make the leap? <br /><br />
+        Join me on an journey to learn all about this new approach and how to make your Angular applications ready to go zoneless.
+        <br />Discover the benefits, learn how to make the changes, and get your applications ready for the future!"
         talk_video_url:
         speakers:
-          speaker_1: *SoumayaErradi
+          speaker_3: *DavidePassafaro
 
       SmartNanoStoresOrHowToMakeStateManagementInAngularSimpler:        
         item_type: "talk"
@@ -100,4 +114,21 @@ days:
         talk_video_url:
         speakers:
           speaker_2: *NinaTorgunakova
+      
+      AngularPWACraftingAppsThatAdaptAnywhere:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Angular PWA: crafting apps that adapt anywhere"
+        talk_description: "Ready to boost your Angular App? <br />
+        Take it up a notch by turning it into a Progressive Web App (PWA). With Angular's help, upgrading your app to a PWA and setting up the necessary service worker is easy. 
+        <br />The service worker keeps your app accessible even offline, storing all important data. Plus, your PWA can act like a desktop or mobile app, giving users a native app feel. Join us as we explore Angular PWAs, showing you how to set up your app and make it look good on any device."
+        talk_video_url:
+        speakers:
+          speaker_1: *SoumayaErradi
+
+    
+
+
       

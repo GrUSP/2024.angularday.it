@@ -101,6 +101,10 @@ conference:
   topics:
     - "Angular"
     - "PWA"
+    - "Performance"
+    - "Zoneless"
+    - "Nano stores"
+    - "State management"
     - "Best practices"
 
 
