@@ -1,35 +1,33 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: true
+generate_schedule_page: false
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
-  speaker_bio: ""
-  speaker_github_url: ""
-  speaker_twitter_url: ""
-  speaker_instagram_url: ""
-  speaker_linkedin_url: ""
+speaker_1: &SoumayaErradi
+  speaker_in_speaker_lists: true
+  speaker_name: Soumaya Erradi
+  speaker_pic_filename: SoumayaErradi.jpg
+  speaker_role: "Senior Software Developer @ Atlantis S.R.L"
+  speaker_bio: "I'm Soumaya Erradi and I'm a software developer and an IT teacher. <br />
+I'm high skilled in web development (frontend and backend), specialized in developing enterprise applications using Angular. <br />
+Currently, I'm working as frontend lead developer in a team focused on blockchain app development.
+I'm also holding coding courses and meetups to deepen technical and business issues related to Blockchain and Smart Contracts.
+As a speaker at conferences I bring advanced Angular topics, tips for the integration of smart contracts and best solutions for decentralized applications and web3."
+  speaker_github_url: "https://github.com/soumayaerradi"
+  speaker_twitter_url: "https://twitter.com/sumy92"
+  speaker_instagram_url: "https://www.instagram.com/sumyerradi/"
+  speaker_linkedin_url: "https://www.linkedin.com/in/soumaya-erradi"
   speaker_mastodon_url: ""
   is_mc: false
 
 speakers:
-  speaker_1: *speaker
+  speaker_1: *SoumayaErradi
 
 tracks:
   track_1: &track_1
     id: 1
     title: "Track 1"
-  track_2: &track_2
-    id: 2
-    title: "Track 2"
-  track_3: &track_3
-    id: 3
-    title: "Track 3 - fake track"
 
 # NB "item_type": tipi di "talk"
 #   "talk" -- un talk vero e proprio, che va anche in components/speakers e nella pagina talks_speakers
@@ -63,23 +61,16 @@ days:
         service_icon: "glass"
 
       # talk
-      keynote:
-        item_type: "keynote"
-        track: *track_1
-        start_datetime: 2022-05-19T09:30+02:00
-        end_datetime: 2022-05-19T10:25+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
-        speakers:
-          speaker_1: *speaker
-      titolotalk1:
+      AngularPWACraftingAppsThatAdaptAnywhere:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
-        talk_title: ""
-        talk_description: ""
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Angular PWA: crafting apps that adapt anywhere"
+        talk_description: "Ready to boost your Angular App? <br />
+        Take it up a notch by turning it into a Progressive Web App (PWA). With Angular's help, upgrading your app to a PWA and setting up the necessary service worker is easy. 
+        <br />The service worker keeps your app accessible even offline, storing all important data. Plus, your PWA can act like a desktop or mobile app, giving users a native app feel. Join us as we explore Angular PWAs, showing you how to set up your app and make it look good on any device."
         talk_video_url:
         speakers:
-          speaker_1: *speaker
+          speaker_1: *SoumayaErradi
+      
