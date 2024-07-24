@@ -9,11 +9,9 @@ speaker_1: &SoumayaErradi
   speaker_name: Soumaya Erradi
   speaker_pic_filename: SoumayaErradi.jpg
   speaker_role: "Senior Software Developer @ Atlantis S.R.L"
-  speaker_bio: "I'm Soumaya Erradi and I'm a software developer and an IT teacher. <br />
-I'm high skilled in web development (frontend and backend), specialized in developing enterprise applications using Angular. <br />
-Currently, I'm working as frontend lead developer in a team focused on blockchain app development.
-I'm also holding coding courses and meetups to deepen technical and business issues related to Blockchain and Smart Contracts.
-As a speaker at conferences I bring advanced Angular topics, tips for the integration of smart contracts and best solutions for decentralized applications and web3."
+  speaker_bio: "I'm an experienced web developer and a passionate IT and electronics instructor, specializing in frontend development and enterprise applications built with Angular. <br >
+  <br /> I spend most of my time exploring what's new in the tech world and helping other developers improve their skills. <br />
+  <br />As a conference speaker, I bring advanced Angular topics, tips for the integration of smart contracts and best solutions for web3 applications."
   speaker_github_url: "https://github.com/soumayaerradi"
   speaker_twitter_url: "https://twitter.com/sumy92"
   speaker_instagram_url: "https://www.instagram.com/sumyerradi/"
@@ -123,7 +121,8 @@ days:
         talk_title: "Angular PWA: crafting apps that adapt anywhere"
         talk_description: "Ready to boost your Angular App? <br />
         Take it up a notch by turning it into a Progressive Web App (PWA). With Angular's help, upgrading your app to a PWA and setting up the necessary service worker is easy. 
-        <br />The service worker keeps your app accessible even offline, storing all important data. Plus, your PWA can act like a desktop or mobile app, giving users a native app feel. Join me as we explore Angular PWAs, showing you how to set up your app and make it look good on any device."
+        <br />The service worker keeps your app accessible even offline, storing all important data. Plus, your PWA can act like a desktop or mobile app, giving users a native app feel. 
+        <br /> <br />Join me as we explore Angular PWAs, showing you how to set up your app and make it look good on any device."
         talk_video_url:
         speakers:
           speaker_1: *SoumayaErradi
