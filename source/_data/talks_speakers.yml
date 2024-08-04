@@ -52,11 +52,25 @@ When i shut down my computer I like to play board games and archery, not both to
   speaker_linkedin_url: ""
   is_mc: false
 
+speaker_5: &KaterinaSkroumpelou
+  speaker_in_speaker_lists: true
+  speaker_name: Katerina Skroumpelou
+  speaker_pic_filename: KaterinaSkroumpelou.png
+  speaker_role: "Frontend Team Lead @ Dynaset srl"
+  speaker_bio: "My name is Davide Passafaro and I am senior frontend engineer at Awork. <br />
+I am the Community Manager of Angular Rome and I enjoy contribute to tech communities and conferences.<br />
+
+When i shut down my computer I like to play board games and archery, not both together till now. I also like escape rooms and memes."
+  speaker_twitter_url: "https://twitter.com/psybercity"
+  speaker_linkedin_url: "https://www.linkedin.com/in/katerinaskroumpelou/"
+  is_mc: false
+
 speakers:
   speaker_3: *DavidePassafaro
   speaker_2: *NinaTorgunakova
   speaker_1: *SoumayaErradi
   speaker_4: *GioeleMasini
+  speaker_5: *KaterinaSkroumpelou
  
 
 tracks:
@@ -153,5 +167,16 @@ days:
           speaker_4: *GioeleMasini
     
 
-
+      NxifyYourAngularApp:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Nxify your Angular app"
+        talk_description: "Angular is amazing. What's more amazing, is Angular with Nx.
+        <br />And what's even more amazing is Angular with Nx Cloud. With Nx Cloud, your Angular app will literally fly, with shared cache, distributed task execution, smart resource allocation, Nx Agents and our fantastic task Atomizer. 
+        <br />A from-build-to-ship process like you've never seen before, Nx will give you a taste of the future. All this, in your favorite Angular project."
+        talk_video_url:
+        speakers:
+          speaker_5: *KaterinaSkroumpelou
       
