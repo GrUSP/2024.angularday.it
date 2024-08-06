@@ -33,8 +33,10 @@ speaker_3: &DavidePassafaro
   speaker_name: Davide Passafaro
   speaker_pic_filename: DavidePassafaro.png
   speaker_role: "Senior Frontend Engineer @ awork.com"
-  speaker_bio: "Frontend tech lover and Angular developer from early versions, Gioele is passionate in everything about development world.
-In freetime is a fantasy reader, boardgame player and baseball pitcher."
+  speaker_bio: "My name is Davide Passafaro and I am senior frontend engineer at Awork. <br />
+I am the Community Manager of Angular Rome and I enjoy contribute to tech communities and conferences.<br />
+
+When i shut down my computer I like to play board games and archery, not both together till now. I also like escape rooms and memes."
   speaker_twitter_url: "https://x.com/DavidePassafaro"
   speaker_linkedin_url: "https://www.linkedin.com/in/davide-passafaro"
   is_mc: false
@@ -44,10 +46,8 @@ speaker_4: &GioeleMasini
   speaker_name: Gioele Masini
   speaker_pic_filename: GioeleMasini.jpg
   speaker_role: "Frontend Team Lead @ Dynaset srl"
-  speaker_bio: "My name is Davide Passafaro and I am senior frontend engineer at Awork. <br />
-I am the Community Manager of Angular Rome and I enjoy contribute to tech communities and conferences.<br />
-
-When i shut down my computer I like to play board games and archery, not both together till now. I also like escape rooms and memes."
+  speaker_bio: "Frontend tech lover and Angular developer from early versions, Gioele is passionate in everything about development world.
+In freetime is a fantasy reader, boardgame player and baseball pitcher."
   speaker_twitter_url: ""
   speaker_linkedin_url: ""
   is_mc: false
@@ -57,10 +57,7 @@ speaker_5: &KaterinaSkroumpelou
   speaker_name: Katerina Skroumpelou
   speaker_pic_filename: KaterinaSkroumpelou.png
   speaker_role: "Senior Engineer @ Nx"
-  speaker_bio: "My name is Davide Passafaro and I am senior frontend engineer at Awork. <br />
-I am the Community Manager of Angular Rome and I enjoy contribute to tech communities and conferences.<br />
-
-When i shut down my computer I like to play board games and archery, not both together till now. I also like escape rooms and memes."
+  speaker_bio: ""
   speaker_twitter_url: "https://twitter.com/psybercity"
   speaker_linkedin_url: "https://www.linkedin.com/in/katerinaskroumpelou/"
   speaker_github_url: "https://github.com/mandarini"
