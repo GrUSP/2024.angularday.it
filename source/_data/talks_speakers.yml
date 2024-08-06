@@ -57,7 +57,8 @@ speaker_5: &KaterinaSkroumpelou
   speaker_name: Katerina Skroumpelou
   speaker_pic_filename: KaterinaSkroumpelou.png
   speaker_role: "Senior Engineer @ Nx"
-  speaker_bio: ""
+  speaker_bio: "Senior Engineer at Nx, open source contributor, GDE for Angular & Google Maps platform, WTM Ambassador, AngularAthens meetup co-founder. 
+  <br /> <br>Mentoring women into tech, speaking about the cool things I do, climbing mountains and serving cats for life. More at psyber.city."
   speaker_twitter_url: "https://twitter.com/psybercity"
   speaker_linkedin_url: "https://www.linkedin.com/in/katerinaskroumpelou/"
   speaker_github_url: "https://github.com/mandarini"
