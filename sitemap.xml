@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://2024.angularday.it/welcome/about.html</loc>
+    <loc>https://2024.angularday.it/welcome/cfp.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.angularday.it/workshop/workshop_2.html</loc>
+    <loc>https://2024.angularday.it/workshop/workshop_1.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -17,13 +17,6 @@
   
   <url>
     <loc>https://2024.angularday.it/schedule/index.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.angularday.it/sponsor/index.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -44,6 +37,13 @@
   </url>
   
   <url>
+    <loc>https://2024.angularday.it/sponsor/index.html</loc>
+    
+    <lastmod>2024-08-06</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://2024.angularday.it/welcome/index.html</loc>
     
     <lastmod>2024-08-06</lastmod>
@@ -58,14 +58,21 @@
   </url>
   
   <url>
-    <loc>https://2024.angularday.it/workshop/workshop_1.html</loc>
+    <loc>https://2024.angularday.it/workshop/workshop_2.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.angularday.it/welcome/cfp.html</loc>
+    <loc>https://2024.angularday.it/welcome/about.html</loc>
+    
+    <lastmod>2024-08-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2024.angularday.it/welcome/coc.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -87,13 +94,6 @@
   
   <url>
     <loc>https://2024.angularday.it/welcome/where.html</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.angularday.it/welcome/coc.html</loc>
     
     <lastmod>2024-08-06</lastmod>
     
