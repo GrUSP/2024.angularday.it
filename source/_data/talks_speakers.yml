@@ -79,10 +79,24 @@ I strives continually to provide maximum value for customers and the wider devel
   speaker_github_url: "https://github.com/tomastrajan"
   is_mc: false
 
+speaker_7: &MateuszStefańczyk
+  speaker_in_speaker_lists: true
+  speaker_name: Mateusz Stefańczyk
+  speaker_pic_filename: MateuszStefanczyk.png
+  speaker_role: "Team Leader @ House of Angular"
+  speaker_bio: "I'm the Team leader of the Angular team at House of Angular company and a blogger on the angular.love blog, where I share knowledge and experience about Angular.<br />
+  <br /> <br />I develop Angular web applications and I'm passionate about business analysis and designing custom web application architectures. 
+  <br /> I'm is also keen on gaining expertise in the field of reverse engineering."
+  speaker_twitter_url: "https://twitter.com/m_stefanczyk"
+  speaker_linkedin_url: "https://www.linkedin.com/in/mateusz-stefa%C5%84czyk-22080b164/"
+  speaker_github_url: ""
+  is_mc: false
+
 speakers:
   speaker_3: *DavidePassafaro
   speaker_4: *GioeleMasini
   speaker_5: *KaterinaSkroumpelou
+  speaker_7: *MateuszStefańczyk
   speaker_2: *NinaTorgunakova
   speaker_1: *SoumayaErradi
   speaker_6: *TomasTrajan 
@@ -163,6 +177,22 @@ days:
         talk_video_url:
         speakers:
           speaker_5: *KaterinaSkroumpelou
+
+      AngularArchitectureUsingSignals:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:30+02:00
+        # end_datetime: 2022-05-19T11:25+02:00
+        talk_title: "Angular Architecture using Signals"
+        talk_description: "This talk delves into the architectural advantages of utilizing Signals within Angular frameworks, emphasizing how this innovative feature can simplify state management and enhance application scalability.
+        <br /> <br /> We’ll introduce the concept of Signals in Angular, discussing their role in creating more reactive and maintainable applications. 
+        <br /<br />Key focus areas include the integration of Signals for efficient data flow and state changes, and the reduction in complexity this brings to Angular architecture. Through practical examples, we will illustrate how Signals can be leveraged in various architectural patterns to facilitate better performance and developer productivity. 
+        <br /<br />
+        Ideal for Angular developers and architects, this presentation aims to equip participants with the knowledge to harness Signals in optimizing their application architecture for better scalability and maintainability."
+        talk_video_url:
+        speakers:
+          speaker_7: *MateuszStefańczyk
+
     
       SmartNanoStoresOrHowToMakeStateManagementInAngularSimpler:        
         item_type: "talk"
