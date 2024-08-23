@@ -92,9 +92,20 @@ speaker_7: &MateuszStefańczyk
   speaker_github_url: ""
   is_mc: false
 
+
+speaker_8: &JoelvisPimentel
+  speaker_in_speaker_lists: true
+  speaker_name: Joelvis Pimentel
+  speaker_pic_filename: JoelvisPimentel.jpg
+  speaker_role: "Frontend Developer @ Dinova"
+  speaker_bio: "As a frontend developer, my enthusiasm for graphics is the driving force behind my work. <br /> <br />
+   My adventure began with a keen interest in the visual elements of the web, and I have since committed myself to pushing the boundaries of what can be achieved with code and design."
+  is_mc: false
+
 speakers:
   speaker_3: *DavidePassafaro
   speaker_4: *GioeleMasini
+  speaker_8: *JoelvisPimentel
   speaker_5: *KaterinaSkroumpelou
   speaker_7: *MateuszStefańczyk
   speaker_2: *NinaTorgunakova
@@ -152,6 +163,23 @@ days:
         talk_video_url:
         speakers:
           speaker_3: *DavidePassafaro
+
+
+
+      FromScratchToScreenTheArtOfComponentDesignInAngular:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:30+02:00
+        # end_datetime: 2022-05-19T11:25+02:00
+        talk_title: "From Scratch to Screen: The Art of Component Design in Angular"
+        talk_description: "The goal of this talk is to go through the building process of some of the elments that constitutes an UI system. 
+        <br />From simple elements as buttons to more complex ones like selects and tables. <br />
+        The focus will be on building components made to be straightforward and accessible, and the approach will be oriented on developer experience (people that will use our components in their code). <br /> <br />
+        I will go trough the thinking steps that lead to certain designs, explaining problems, and their solutions, and Angular will be the protagonist as we will use some of the new features to showcase how they solve specific situations (standalone api, signals, composite directives). 
+        <br />I can guarantee that nothing will be obvious!"
+        talk_video_url:
+        speakers:
+          speaker_8: *JoelvisPimentel
 
       OptimizingDataHandlingInBusinessAngularSPAAJourneyThroughEvolvingCustomStateManagement:
         item_type: "talk"
