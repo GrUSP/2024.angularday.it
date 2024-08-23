@@ -101,6 +101,7 @@ conference:
   topics:
     - "Angular"
     - "Architecture"
+    - "Component design"
     - "NX"
     - "PWA"
     - "Performance"
