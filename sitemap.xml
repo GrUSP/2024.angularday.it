@@ -9,7 +9,7 @@
   </url>
   
   <url>
-    <loc>https://2024.angularday.it/workshop/workshop_1.html</loc>
+    <loc>https://2024.angularday.it/workshop/workshop_2.html</loc>
     
     <lastmod>2024-09-03</lastmod>
     
@@ -30,13 +30,6 @@
   </url>
   
   <url>
-    <loc>https://2024.angularday.it/tickets/index.html</loc>
-    
-    <lastmod>2024-09-03</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://2024.angularday.it/talks_speakers/index.html</loc>
     
     <lastmod>2024-09-03</lastmod>
@@ -44,7 +37,7 @@
   </url>
   
   <url>
-    <loc>https://2024.angularday.it/welcome/index.html</loc>
+    <loc>https://2024.angularday.it/tickets/index.html</loc>
     
     <lastmod>2024-09-03</lastmod>
     
@@ -58,14 +51,21 @@
   </url>
   
   <url>
-    <loc>https://2024.angularday.it/workshop/workshop_2.html</loc>
+    <loc>https://2024.angularday.it/welcome/index.html</loc>
     
     <lastmod>2024-09-03</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.angularday.it/welcome/safety.html</loc>
+    <loc>https://2024.angularday.it/workshop/workshop_1.html</loc>
+    
+    <lastmod>2024-09-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2024.angularday.it/welcome/coc.html</loc>
     
     <lastmod>2024-09-03</lastmod>
     
@@ -79,7 +79,7 @@
   </url>
   
   <url>
-    <loc>https://2024.angularday.it/welcome/coc.html</loc>
+    <loc>https://2024.angularday.it/welcome/safety.html</loc>
     
     <lastmod>2024-09-03</lastmod>
     
