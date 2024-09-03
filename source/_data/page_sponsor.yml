@@ -28,22 +28,23 @@ levels:
     vat_label: "(+ VAT 22%)"
     available_slots: 1
     description_1:
-      - "1 dedicated session (30 mins max, no commercial talks accepted)"
-      - "Access to attendees list (attendees who agreed to share their contact with sponsors)"
+      - "30 mins on-stage talk (no commercial talks accepted)"
+      - "Attendees list (who agreed to share their contact)"
     description_2:
-      - "Large Stand (in-person event)"
-      - "Large Virtual booth"
+      - "In person booth - large"
+      - ""
     description_3:
-      - "Your logo on conference rollup banners (in-person event)"
-      - "Your own rollup banner (80x200cm) in the conference room (in-person event)"
-      - "Your logo displayed on rotation in the lower third throughout the event"
+      - "Your logo on conference rollup banners"
+      - "Your own rollup banner at the conference"
+      - "Your logo displayed during streaming video"
     description_4:
-      - "Bring your gadgets to the in-person event"
-      - "Your own digital flyer and/or gadget in digital swag bag"
+      - "Your gadgets/flyers in the swag bag"
+      - "Your banner in the digital swag bag"
     description_5:
-      - "Your logo in pre-event communications"
-      - "Your logo on conference website"
-      - "Your company mentioned and the logo shown during the opening remarks"
+      - "Your logo in pre- and post- conference emails"
+      - "Your logo on the conference website"
+      - "Mention during event opening and closing"
+      - "Mention on social media"
     description_6:
       - "<strong>10</strong> free tickets for the online event"
       - "<strong>5</strong> free tickets for the in-person event"
