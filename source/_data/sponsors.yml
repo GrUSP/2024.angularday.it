@@ -28,6 +28,10 @@ silver:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
+  sponsor3:
+    name: "Nx"
+    logo_filename: "Nx.svg"
+    site_url: "https://nx.dev//"
 bronze:
   sponsor2:
     name: "stickermule"
