@@ -1,16 +1,31 @@
 intro:
-  slogan_1: "Is your activity connected with angular?"
-  slogan_2: "Do you want to participate in the making of angularday?"
-  content_1: "Great idea! You will contribute to the success of an event that is unique in Italy and will receive a remarkable visibility."
-  content_2: "Diversity sponsorships will support the GrUSP Diversity and Inclusion Fund, which lets us run the Scholarship Programs and funds discounted and free tickets for people from underrepresented and/or marginalised groups in tech, and anybody who would otherwise be unable to attend without financial assistance."
+  slogan_1: "For those engaged with Angular, this is your chance to contribute to the success of angularday while seizing a valuable opportunity."
+  slogan_2: "Why sponsor angularday?"
+  content_1: "angularday is proudly organized by <a href='https://www.grusp.org' target=_blank>GrUSP</a>, an organization with over two decades of experience in promoting excellence in web development. Established in 2003, GrUSP initially focused on PHP but has since evolved into Italy’s leading advocate for best practices in web development. Our mission is to enhance the Italian web development ecosystem by fostering skill development and creating opportunities through collaboration and knowledge sharing.<br>&nbsp;<br>
+              <b>What sets angularday apart?</b>
+              <ul>
+                <li><b>- 21 Years of Expertise:</b> Since 2003, we have been organizing international tech conferences, consistently delivering high-quality events.</li>
+                <li><b>- Targeted Audience::</b> 90% of our attendees are mid-level to senior professionals, ensuring you connect with a highly experienced audience.</li>
+                <li><b>- Brand Visibility:</b> Enhance your brand's presence and connect directly with your target market.</li>
+                <li><b>- Talent Acquisition:</b> Access a pool of skilled professionals within the community, perfect for recruitment opportunities.</li>
+                <li><b>- Market Leadership:</b> Reinforce your position as a leader in the industry.</li>
+              </ul>
+              "
+  content_2: "<p><b>Diversity sponsorships</b><br>Support our commitment to diversity and inclusion by contributing to the GrUSP Diversity and Inclusion Fund. This fund supports scholarship programs and provides discounted or complimentary tickets to individuals from underrepresented or marginalized groups in tech, as well as those needing financial assistance to attend.</p>
+              <p>For further information, please reach out via email at <b><a href='mailto:angularday@grusp.org'>angularday@grusp.org</a></b></p>"
   content_3: ""
 block_2:
-  title: "Sponsorship options"
-  slogan: "Get the most out of your participation"
-  subtitle_1: "Ideas and suggestions?"
-  content_1: "Please get in touch with us to arrange the options that best suits your needs, or to share a brilliant sponsoring idea."
-  subtitle_2: "Full packages"
-  content_2: "You can choose between one of the following sponsorship packages. <strong> Additional perks are available for main, platinum and gold levels:</strong> get in touch with an email to angularday@grusp.org for additional information."
+  title: "Exclusive Sponsorship Perks"
+  slogan: "Get the most out of your participation!"
+  subtitle_1: "Some of the perks!"
+  content_1: "- take the stage for a talk<br>
+- large in-person booth<br>
+- additional free tickets for your team<br>
+- distribute your own gadgets<br>
+- your logo in all the communications<br>
+…and many more!"
+  subtitle_2: "Do you have a special idea?"
+  content_2: "Ready to elevate your brand by sponsoring one of our exciting events? We’d love to hear your ideas and tailor the perfect partnership for you. Let’s connect and create something amazing together: <b><a href='mailto:angularday@grusp.org'>angularday@grusp.org</a></b>"
 # level description blocks:
 #   If the numbered description is not there, the relevant section will not be displayed
 #   Every block has its own background color based on the block number
