@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: true
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
@@ -128,33 +128,100 @@ tracks:
 
 days:
   day_1:
-    date: 2020-09-16T09:00
+    date: 2024-11-08T09:00
     title: "Day 1"
     talks:
-      talk_1:
+      checkin:
         item_type: "service"
-        start_datetime: 2020-09-16T09:00
-        end_datetime: 2020-09-16T09:30
+        start_datetime: 2024-11-08T09:00+01:00
+        end_datetime: 2024-11-08T09:30+01:00
         talk_title: "Check-in"
-      talk_2:
+
+      opening:
         item_type: "service"
-        start_datetime: 2022-05-19T13:00+02:00
-        end_datetime: 2022-05-19T14:30+02:00
+        start_datetime: 2024-11-08T09:35+01:00
+        end_datetime: 2024-11-08T09:50+01:00
+        talk_title: "Opening by GrUSP"
+      
+      
+
+      LongTermSuccessOfYourAngularProjectsWithAutomatedArchitectureValidation!:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2024-11-08T09:50+01:00
+        end_datetime: 2024-11-08T10:30+01:00
+        talk_title: "Long term success of your Angular projects with automated architecture validation!"
+        talk_description: "Learn how to architect a brand new or improve an existing enterprise grade Angular application with a bulletproof ESLINT based automated architecture validation to guarantee that Your project stays maintainable, extendable and therefore allows you and your team to deliver consistently and with high velocity over the entire project lifetime!"
+        talk_video_url:
+        speakers:
+          speaker_6: *TomasTrajan
+
+      AngularPWACraftingAppsThatAdaptAnywhere:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2024-11-08T10:30+01:00
+        end_datetime: 2024-11-08T11:10+01:00
+        talk_title: "Angular PWA: crafting apps that adapt anywhere"
+        talk_description: "Ready to boost your Angular App? <br />
+        Take it up a notch by turning it into a Progressive Web App (PWA). With Angular's help, upgrading your app to a PWA and setting up the necessary service worker is easy. 
+        <br />The service worker keeps your app accessible even offline, storing all important data. Plus, your PWA can act like a desktop or mobile app, giving users a native app feel. 
+        <br /> <br />Join me as we explore Angular PWAs, showing you how to set up your app and make it look good on any device."
+        talk_video_url:
+        speakers:
+          speaker_1: *SoumayaErradi
+
+      coffee_break_morning:
+        item_type: "service"
+        start_datetime: 2024-11-08T11:10+01:00
+        end_datetime: 2024-11-08T11:40+01:00
+        talk_title: "Coffee break"
+        service_icon: "coffee"
+
+      OptimizingDataHandlingInBusinessAngularSPAAJourneyThroughEvolvingCustomStateManagement:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2024-11-08T11:40+01:00
+        end_datetime: 2024-11-08T12:20+01:00
+        talk_title: "Optimizing Data Handling in Business Angular SPA: A Journey through Evolving Custom State Management"
+        talk_description: "This talk offers an in-depth exploration of our company's journey in optimizing data handling within Angular applications, focusing on the development and integration of a custom CacheOperator and an evolving store solution providing reactive state management. 
+        <br />We'll discuss the transition from observables to signals and the rationale behind the development of these custom tools, with real code examples."
+        talk_video_url:
+        speakers:
+          speaker_4: *GioeleMasini
+
+      SmartNanoStoresOrHowToMakeStateManagementInAngularSimpler:        
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2024-11-08T12:20+01:00
+        end_datetime: 2024-11-08T13:00+01:00
+        talk_title: "Smart Nano Stores, or how to make state management in Angular simpler"
+        talk_description: "It's hard to name popular state management libraries for Angular that are totally ideal. They are often cumbersome, which makes the bundle heavier, many of them require a boilerplate and overload components with complex logic. Moreover, sometimes we have to choose a state manager, sacrificing performance, maintainability, or readability.
+
+        <br /><br />But what if the state management process could get rid of these flaws and become much simpler? In this talk, I want to show how this can be made possible with Nano Stores – a teeny (from 334 bytes) state manager based on the idea of smart atomic stores. It has zero dependencies, its own ecosystem, and is supported in all popular frameworks including Angular.
+
+        <br /><br />With illustrative examples, I want to demonstrate that state management using tiny atomic tree-shakable stores can be much more minimalistic, faster, and more convenient than we are used to seeing it."
+        talk_video_url:
+        speakers:
+          speaker_2: *NinaTorgunakova
+
+      lunch_break:
+        item_type: "service"
+        start_datetime: 2024-11-08T13:00+01:00
+        end_datetime: 2024-11-08T14:10+01:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
-      happy-hour:
-        item_type: "service"
-        start_datetime: 2022-05-19T18:25+02:00
-        end_datetime: 2022-05-19T19:30+02:00
-        talk_title: "Happy Hour"
-        service_icon: "glass"
 
-      # talks
+      lightning_talks:
+        item_type: "service"
+        start_datetime: 2024-11-08T14:10+01:00
+        end_datetime: 2024-11-08T14:40+01:00
+        talk_title: "Lightning talks"
+
       GetReadyToGoZoneless:        
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
+        start_datetime: 2024-11-08T14:40+01:00
+        end_datetime: 2024-11-08T15:20+01:00
         talk_title: "Get ready to go Zoneless"
         talk_description: "Angular's change detection is finally going zoneless, promising to make your apps faster and more performant. <br />
         But are you ready to make the leap? <br /><br />
@@ -163,14 +230,32 @@ days:
         talk_video_url:
         speakers:
           speaker_3: *DavidePassafaro
+      
+      NxifyYourAngularApp:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2024-11-08T15:20+01:00
+        end_datetime:  2024-11-08T16:00+01:00
+        talk_title: "Nxify your Angular app"
+        talk_description: "Angular is amazing. What's more amazing, is Angular with Nx.
+        <br />And what's even more amazing is Angular with Nx Cloud. With Nx Cloud, your Angular app will literally fly, with shared cache, distributed task execution, smart resource allocation, Nx Agents and our fantastic task Atomizer. 
+        <br />A from-build-to-ship process like you've never seen before, Nx will give you a taste of the future. All this, in your favorite Angular project."
+        talk_video_url:
+        speakers:
+          speaker_5: *KaterinaSkroumpelou
 
-
+      coffee_break_afternoon:
+        item_type: "service"
+        start_datetime: 2024-11-08T16:00+01:00
+        end_datetime: 2024-11-08T16:30+01:00
+        talk_title: "Coffee break"
+        service_icon: "coffee"
 
       FromScratchToScreenTheArtOfComponentDesignInAngular:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T10:30+02:00
-        # end_datetime: 2022-05-19T11:25+02:00
+        start_datetime: 2024-11-08T16:30+01:00
+        end_datetime: 2024-11-08T17:10+01:00
         talk_title: "From Scratch to Screen: The Art of Component Design in Angular"
         talk_description: "The goal of this talk is to go through the building process of some of the elments that constitutes an UI system. 
         <br />From simple elements as buttons to more complex ones like selects and tables. <br />
@@ -181,36 +266,11 @@ days:
         speakers:
           speaker_8: *JoelvisPimentel
 
-      OptimizingDataHandlingInBusinessAngularSPAAJourneyThroughEvolvingCustomStateManagement:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
-        talk_title: "Optimizing Data Handling in Business Angular SPA: A Journey through Evolving Custom State Management"
-        talk_description: "This talk offers an in-depth exploration of our company's journey in optimizing data handling within Angular applications, focusing on the development and integration of a custom CacheOperator and an evolving store solution providing reactive state management. 
-        <br />We'll discuss the transition from observables to signals and the rationale behind the development of these custom tools, with real code examples."
-        talk_video_url:
-        speakers:
-          speaker_4: *GioeleMasini
-
-      NxifyYourAngularApp:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
-        talk_title: "Nxify your Angular app"
-        talk_description: "Angular is amazing. What's more amazing, is Angular with Nx.
-        <br />And what's even more amazing is Angular with Nx Cloud. With Nx Cloud, your Angular app will literally fly, with shared cache, distributed task execution, smart resource allocation, Nx Agents and our fantastic task Atomizer. 
-        <br />A from-build-to-ship process like you've never seen before, Nx will give you a taste of the future. All this, in your favorite Angular project."
-        talk_video_url:
-        speakers:
-          speaker_5: *KaterinaSkroumpelou
-
       AngularArchitectureUsingSignals:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T10:30+02:00
-        # end_datetime: 2022-05-19T11:25+02:00
+        start_datetime: 2024-11-08T17:10+01:00
+        end_datetime: 2024-11-08T17:50+01:00
         talk_title: "Angular Architecture using Signals"
         talk_description: "This talk delves into the architectural advantages of utilizing Signals within Angular frameworks, emphasizing how this innovative feature can simplify state management and enhance application scalability.
         <br /> <br /> We’ll introduce the concept of Signals in Angular, discussing their role in creating more reactive and maintainable applications. 
@@ -221,43 +281,11 @@ days:
         speakers:
           speaker_7: *MateuszStefańczyk
 
-    
-      SmartNanoStoresOrHowToMakeStateManagementInAngularSimpler:        
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
-        talk_title: "Smart Nano Stores, or how to make state management in Angular simpler"
-        talk_description: "It's hard to name popular state management libraries for Angular that are totally ideal. They are often cumbersome, which makes the bundle heavier, many of them require a boilerplate and overload components with complex logic. Moreover, sometimes we have to choose a state manager, sacrificing performance, maintainability, or readability.
+      closing:
+        item_type: "service"
+        start_datetime: 2024-11-08T17:50+01:00
+        end_datetime: 2024-11-08T18:00+01:00
+        talk_title: "Closing by GrUSP - See you next year!"
 
-        <br /><br />But what if the state management process could get rid of these flaws and become much simpler? In this talk, I want to show how this can be made possible with Nano Stores – a teeny (from 334 bytes) state manager based on the idea of smart atomic stores. It has zero dependencies, its own ecosystem, and is supported in all popular frameworks including Angular.
-
-        <br /><br />With illustrative examples, I want to demonstrate that state management using tiny atomic tree-shakable stores can be much more minimalistic, faster, and more convenient than we are used to seeing it."
-        talk_video_url:
-        speakers:
-          speaker_2: *NinaTorgunakova
       
-      AngularPWACraftingAppsThatAdaptAnywhere:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
-        talk_title: "Angular PWA: crafting apps that adapt anywhere"
-        talk_description: "Ready to boost your Angular App? <br />
-        Take it up a notch by turning it into a Progressive Web App (PWA). With Angular's help, upgrading your app to a PWA and setting up the necessary service worker is easy. 
-        <br />The service worker keeps your app accessible even offline, storing all important data. Plus, your PWA can act like a desktop or mobile app, giving users a native app feel. 
-        <br /> <br />Join me as we explore Angular PWAs, showing you how to set up your app and make it look good on any device."
-        talk_video_url:
-        speakers:
-          speaker_1: *SoumayaErradi
       
-      LongTermSuccessOfYourAngularProjectsWithAutomatedArchitectureValidation!:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
-        talk_title: "Long term success of your Angular projects with automated architecture validation!"
-        talk_description: "Learn how to architect a brand new or improve an existing enterprise grade Angular application with a bulletproof ESLINT based automated architecture validation to guarantee that Your project stays maintainable, extendable and therefore allows you and your team to deliver consistently and with high velocity over the entire project lifetime!"
-        talk_video_url:
-        speakers:
-          speaker_6: *TomasTrajan
