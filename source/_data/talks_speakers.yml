@@ -23,7 +23,7 @@ speaker_2: &NinaTorgunakova
   speaker_name: Nina Torgunakova
   speaker_pic_filename: NinaTorgunakova.jpg
   speaker_role: "Frontend Engineer @ Evil Martians"
-  speaker_bio: "Frontend Engineer at Evil Martians, a product development consultancy. <br />Constantly pushing myself to increase my frontend and fullstack technical knowledge, I love passing along my learnings as an author of multiple articles and regular public speaker. Breaking down complex tasks into pragmatic steps for my fellow engineers is a huge passion of mine. 
+  speaker_bio: "Frontend Engineer at Evil Martians, a product development consultancy. <br />Constantly pushing myself to increase my frontend and fullstack technical knowledge, I love passing along my learnings as an author of multiple articles and regular public speaker. Breaking down complex tasks into pragmatic steps for my fellow engineers is a huge passion of mine.
   <br />When I’m AFK I love lyrical dancing, learning languages, and exploring new places."
   speaker_linkedin_url: "https://www.linkedin.com/in/nina-torgunakova/"
   is_mc: false
@@ -57,7 +57,7 @@ speaker_5: &KaterinaSkroumpelou
   speaker_name: Katerina Skroumpelou
   speaker_pic_filename: KaterinaSkroumpelou.png
   speaker_role: "Senior Engineer @ Nx"
-  speaker_bio: "Senior Engineer at Nx, open source contributor, GDE for Angular & Google Maps platform, WTM Ambassador, AngularAthens meetup co-founder. 
+  speaker_bio: "Senior Engineer at Nx, open source contributor, GDE for Angular & Google Maps platform, WTM Ambassador, AngularAthens meetup co-founder.
   <br /> <br>Mentoring women into tech, speaking about the cool things I do, climbing mountains and serving cats for life. More at psyber.city."
   speaker_twitter_url: "https://twitter.com/psybercity"
   speaker_linkedin_url: "https://www.linkedin.com/in/katerinaskroumpelou/"
@@ -85,7 +85,7 @@ speaker_7: &MateuszStefańczyk
   speaker_pic_filename: MateuszStefanczyk.png
   speaker_role: "Team Leader @ House of Angular"
   speaker_bio: "I'm the Team leader of the Angular team at House of Angular company and a blogger on the angular.love blog, where I share knowledge and experience about Angular.<br />
-  <br /> <br />I develop Angular web applications and I'm passionate about business analysis and designing custom web application architectures. 
+  <br /> <br />I develop Angular web applications and I'm passionate about business analysis and designing custom web application architectures.
   <br /> I'm is also keen on gaining expertise in the field of reverse engineering."
   speaker_twitter_url: "https://twitter.com/m_stefanczyk"
   speaker_linkedin_url: "https://www.linkedin.com/in/mateusz-stefa%C5%84czyk-22080b164/"
@@ -110,8 +110,8 @@ speakers:
   speaker_7: *MateuszStefańczyk
   speaker_2: *NinaTorgunakova
   speaker_1: *SoumayaErradi
-  speaker_6: *TomasTrajan 
- 
+  speaker_6: *TomasTrajan
+
 
 tracks:
   track_1: &track_1
@@ -135,15 +135,15 @@ days:
         item_type: "service"
         start_datetime: 2024-11-08T09:00+01:00
         end_datetime: 2024-11-08T09:30+01:00
-        talk_title: "Check-in"
+        talk_title: "Check-in & Welcome Coffee - collect your badge and enjoy a coffee"
 
       opening:
         item_type: "service"
         start_datetime: 2024-11-08T09:35+01:00
         end_datetime: 2024-11-08T09:50+01:00
         talk_title: "Opening by GrUSP"
-      
-      
+
+
 
       LongTermSuccessOfYourAngularProjectsWithAutomatedArchitectureValidation!:
         item_type: "talk"
@@ -163,8 +163,8 @@ days:
         end_datetime: 2024-11-08T11:10+01:00
         talk_title: "Angular PWA: crafting apps that adapt anywhere"
         talk_description: "Ready to boost your Angular App? <br />
-        Take it up a notch by turning it into a Progressive Web App (PWA). With Angular's help, upgrading your app to a PWA and setting up the necessary service worker is easy. 
-        <br />The service worker keeps your app accessible even offline, storing all important data. Plus, your PWA can act like a desktop or mobile app, giving users a native app feel. 
+        Take it up a notch by turning it into a Progressive Web App (PWA). With Angular's help, upgrading your app to a PWA and setting up the necessary service worker is easy.
+        <br />The service worker keeps your app accessible even offline, storing all important data. Plus, your PWA can act like a desktop or mobile app, giving users a native app feel.
         <br /> <br />Join me as we explore Angular PWAs, showing you how to set up your app and make it look good on any device."
         talk_video_url:
         speakers:
@@ -183,13 +183,13 @@ days:
         start_datetime: 2024-11-08T11:40+01:00
         end_datetime: 2024-11-08T12:20+01:00
         talk_title: "Optimizing Data Handling in Business Angular SPA: A Journey through Evolving Custom State Management"
-        talk_description: "This talk offers an in-depth exploration of our company's journey in optimizing data handling within Angular applications, focusing on the development and integration of a custom CacheOperator and an evolving store solution providing reactive state management. 
+        talk_description: "This talk offers an in-depth exploration of our company's journey in optimizing data handling within Angular applications, focusing on the development and integration of a custom CacheOperator and an evolving store solution providing reactive state management.
         <br />We'll discuss the transition from observables to signals and the rationale behind the development of these custom tools, with real code examples."
         talk_video_url:
         speakers:
           speaker_4: *GioeleMasini
 
-      SmartNanoStoresOrHowToMakeStateManagementInAngularSimpler:        
+      SmartNanoStoresOrHowToMakeStateManagementInAngularSimpler:
         item_type: "talk"
         track: *track_1
         start_datetime: 2024-11-08T12:20+01:00
@@ -217,7 +217,7 @@ days:
         end_datetime: 2024-11-08T14:40+01:00
         talk_title: "Lightning talks"
 
-      GetReadyToGoZoneless:        
+      GetReadyToGoZoneless:
         item_type: "talk"
         track: *track_1
         start_datetime: 2024-11-08T14:40+01:00
@@ -230,7 +230,7 @@ days:
         talk_video_url:
         speakers:
           speaker_3: *DavidePassafaro
-      
+
       NxifyYourAngularApp:
         item_type: "talk"
         track: *track_1
@@ -238,7 +238,7 @@ days:
         end_datetime:  2024-11-08T16:00+01:00
         talk_title: "Nxify your Angular app"
         talk_description: "Angular is amazing. What's more amazing, is Angular with Nx.
-        <br />And what's even more amazing is Angular with Nx Cloud. With Nx Cloud, your Angular app will literally fly, with shared cache, distributed task execution, smart resource allocation, Nx Agents and our fantastic task Atomizer. 
+        <br />And what's even more amazing is Angular with Nx Cloud. With Nx Cloud, your Angular app will literally fly, with shared cache, distributed task execution, smart resource allocation, Nx Agents and our fantastic task Atomizer.
         <br />A from-build-to-ship process like you've never seen before, Nx will give you a taste of the future. All this, in your favorite Angular project."
         talk_video_url:
         speakers:
@@ -257,10 +257,10 @@ days:
         start_datetime: 2024-11-08T16:30+01:00
         end_datetime: 2024-11-08T17:10+01:00
         talk_title: "From Scratch to Screen: The Art of Component Design in Angular"
-        talk_description: "The goal of this talk is to go through the building process of some of the elments that constitutes an UI system. 
+        talk_description: "The goal of this talk is to go through the building process of some of the elments that constitutes an UI system.
         <br />From simple elements as buttons to more complex ones like selects and tables. <br />
         The focus will be on building components made to be straightforward and accessible, and the approach will be oriented on developer experience (people that will use our components in their code). <br /> <br />
-        I will go trough the thinking steps that lead to certain designs, explaining problems, and their solutions, and Angular will be the protagonist as we will use some of the new features to showcase how they solve specific situations (standalone api, signals, composite directives). 
+        I will go trough the thinking steps that lead to certain designs, explaining problems, and their solutions, and Angular will be the protagonist as we will use some of the new features to showcase how they solve specific situations (standalone api, signals, composite directives).
         <br />I can guarantee that nothing will be obvious!"
         talk_video_url:
         speakers:
@@ -273,8 +273,8 @@ days:
         end_datetime: 2024-11-08T17:50+01:00
         talk_title: "Angular Architecture using Signals"
         talk_description: "This talk delves into the architectural advantages of utilizing Signals within Angular frameworks, emphasizing how this innovative feature can simplify state management and enhance application scalability.
-        <br /> <br /> We’ll introduce the concept of Signals in Angular, discussing their role in creating more reactive and maintainable applications. 
-        <br /<br />Key focus areas include the integration of Signals for efficient data flow and state changes, and the reduction in complexity this brings to Angular architecture. Through practical examples, we will illustrate how Signals can be leveraged in various architectural patterns to facilitate better performance and developer productivity. 
+        <br /> <br /> We’ll introduce the concept of Signals in Angular, discussing their role in creating more reactive and maintainable applications.
+        <br /<br />Key focus areas include the integration of Signals for efficient data flow and state changes, and the reduction in complexity this brings to Angular architecture. Through practical examples, we will illustrate how Signals can be leveraged in various architectural patterns to facilitate better performance and developer productivity.
         <br /<br />
         Ideal for Angular developers and architects, this presentation aims to equip participants with the knowledge to harness Signals in optimizing their application architecture for better scalability and maintainability."
         talk_video_url:
@@ -287,5 +287,4 @@ days:
         end_datetime: 2024-11-08T18:00+01:00
         talk_title: "Closing by GrUSP - See you next year!"
 
-      
-      
+
