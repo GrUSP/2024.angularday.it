@@ -29,6 +29,14 @@ silver:
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
   sponsor3:
+    name: "Dynaset"
+    logo_filename: "dynaset.png"
+    site_url: "https://dynaset.sm/"
+  sponsor4:
+    name: "House of Angular"
+    logo_filename: "house-of-angular.png"
+    site_url: "https://houseofangular.io/"
+  sponsor5:
     name: "Nx"
     logo_filename: "Nx.svg"
     site_url: "https://nx.dev//"

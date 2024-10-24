@@ -102,6 +102,14 @@ speaker_8: &JoelvisPimentel
    My adventure began with a keen interest in the visual elements of the web, and I have since committed myself to pushing the boundaries of what can be achieved with code and design."
   is_mc: false
 
+speaker_9: &MichelaBertaina
+  speaker_in_speaker_lists: true
+  speaker_name: Michela Bertaina
+  speaker_pic_filename: MichelaBertaina.png
+  speaker_role: "MASTER OF CEREMONIES - Head of Community @ Codemotion"
+  speaker_bio: ""
+  is_mc: true
+
 speakers:
   speaker_3: *DavidePassafaro
   speaker_4: *GioeleMasini
@@ -111,6 +119,7 @@ speakers:
   speaker_2: *NinaTorgunakova
   speaker_1: *SoumayaErradi
   speaker_6: *TomasTrajan
+  speaker_9: *MichelaBertaina
 
 
 tracks:
